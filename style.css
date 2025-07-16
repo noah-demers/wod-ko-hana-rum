@@ -1,0 +1,36 @@
+.hero-image {
+    background-image: url('background.png'); /* Replace with actual image path */
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+  }
+  /* Hero Title Style */
+.hero-title {
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Navbar Links */
+  .navbar-nav .nav-link {
+    color: #f1f1f1;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  /* Footer nav links */
+  footer .nav-link {
+    color: #f1f1f1;
+    padding: 0.25rem 0.5rem;
+  }
+  
+  footer .nav-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
